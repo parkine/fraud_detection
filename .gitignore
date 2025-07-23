@@ -1,1 +1,15 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+.ipython/
+.local/
+
+# Kaggle credentials (very important!)
+.kaggle/
 kaggle.json
+
+# Data files and directories
+data/
+
+# OS or IDE files
+*.DS_Store
+*.vscode/
