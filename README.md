@@ -31,17 +31,10 @@ This will launch a Jupyter notebook server accessible at [http://localhost:8888]
 
 ### 4. Project Structure
 
-    data_download.ipynb
-    data_analyze.ipynb
-    classification.ipynb
-    EDA.ipynb
+    1_data_download.ipynb
+    2_data_analysis.ipynb
+    3_classification.ipynb
+    4_4_model_analysis.ipynb
     Dockerfile
-    requirements.txt
     kaggle.json           # <- your Kaggle API credentials
     card_transdata.csv    # <- dataset if downloaded manually
-
-## Notes
-
-- This project uses ydata_profiling, scikit-learn, pandas, and other common ML/data science libraries.
-- All experiments are run inside the Docker container for consistency.
-- For questions or issues, please refer to the notebook comments or open an issue.
