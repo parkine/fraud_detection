@@ -8,7 +8,11 @@ This project builds and analyzes machine learning models to detect fraudulent cr
 
 Place your `kaggle.json` file in the root directory of this project (required to download data directly from Kaggle).
 
-If you don’t have Kaggle API credentials or prefer not to use them, you can manually download `card_transdata.csv` from [this link](https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud/data) and place it in the root directory.
+If you don’t have Kaggle API credentials or prefer not to use them, 
+- you can manually download `card_transdata.csv` from [this link](https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud/data)
+- unzip the file.
+- create the data directory in the root directory.
+- place the file in the ./data directory.
 
 ### 2. Build and Run Docker Container
 
@@ -34,7 +38,7 @@ This will launch a Jupyter notebook server accessible at [http://localhost:8888]
     1_data_download.ipynb
     2_data_analysis.ipynb
     3_classification.ipynb
-    4_4_model_analysis.ipynb
+    4_model_analysis.ipynb
     Dockerfile
-    kaggle.json           # <- your Kaggle API credentials
-    card_transdata.csv    # <- dataset if downloaded manually
+    kaggle.json                     # <- your Kaggle API credentials
+    ./data/card_transdata.csv       # <- dataset if downloaded manually
