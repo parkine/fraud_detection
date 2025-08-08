@@ -11,7 +11,7 @@ RUN apt-get -y update && \
 RUN pip3 install --upgrade pip setuptools==68.2.2 wheel importlib-metadata
 
 # Install scientific stack first for compatibility
-RUN pip3 install numpy pandas scikit-learn scipy matplotlib jupyter ipywidgets
+RUN pip3 install numpy pandas scikit-learn scipy matplotlib jupyter ipywidgets ipython
 
 # Install your profiling and other tools
 RUN pip3 install ydata-profiling kaggle
