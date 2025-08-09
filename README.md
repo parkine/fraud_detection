@@ -31,7 +31,7 @@ This will launch a Jupyter notebook server accessible at [http://localhost:8888]
 - **data_download.ipynb**: Downloads and saves the Kaggle dataset.
 - **data_analyze.ipynb**: Cleans, explores, and prepares the data.
 - **classification.ipynb**: Trains and evaluates ML models (Naive Bayes, Decision Tree, Random Forest).
-- **EDA.ipynb**: Performs post-modeling analysis, feature importance, and interpretation.
+- **model_analysis.ipynb**: Performs post-modeling analysis, feature importance, and interpretation.
 
 ### 4. Project Structure
 
